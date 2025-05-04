@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado del Formulario</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Resultado del Formulario</h1>
+    <p>Nombre: <strong th:text="${name}"></strong></p>
+    <p>Correo Electrónico: <strong th:text="${email}"></strong></p>
+</body>
+</html>
