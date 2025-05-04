@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Spring Boot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
+        <h1 class="text-2xl font-bold text-gray-800 mb-6" th:text="${mensaje}"></h1>
+        <p class="text-gray-700 mb-4">Esta es una página simple renderizada con Thymeleaf.</p>
+        <a href="/form"
+            class="block text-center bg-blue-500 text-white py-2 px-4 rounded-md shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            Ir al Formulario
+        </a>
+    </div>
+</body>
+</html>
